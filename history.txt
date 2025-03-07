@@ -1,0 +1,38 @@
+  711  mkdir git-majonez
+  712  cd git-majonez/
+  713  git init
+  714  nano main.cpp
+  715  git add main.cpp 
+  716  git commit -m"Initial commit"
+  717  nano main.cpp 
+  718  git add main.cpp 
+  719  git status
+  720  git commit -m"Farewell changed"
+  721  git remote add origin https://github.com/ctrl-daan/git-majonez.git
+  722  git push -u origin master
+  723  git branch cs
+  724  git checkout cs
+  725  git log
+  726  git reset --hard 21cf652b7bc7bdd59da92b13ac2b403575cce6e9
+  727  git log
+  728  nano main.cpp 
+  729  git add main.cpp 
+  730  git commit -m"Greetings"
+  731  git push origin cs
+  732  git checkout master 
+  733  git merge cs
+  734  git diff .
+  735  git status
+  736  git diff cs..master 
+  737  nano main.cpp 
+  738  git merge cs
+  739  git status
+  740  git merge --abort
+  741  git merge cs
+  742  nano main.cpp 
+  743  git commit
+  744  git add main.cpp 
+  745  git commit
+  746  git status
+  747  history
+  748  history | tail +711 >> history.txt
